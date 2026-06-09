@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aroosa Hoda</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">AH<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--HERO-->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Portfolio</div>
+      <h1 class="hero-name">
+        Aroosa<br /><span class="accent">Hoda</span>
+      </h1>
+      <p class="hero-subtitle">
+        Web Developer &amp; media explorer. I build beautiful things for the web and believe every project deserves a story worth telling.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/aroosa-hoda/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/aroosahoda" target="_blank">GitHub</a>
+        <a href="https://leetcode.com/u/aroosahoda/" target="_blank">LeetCode</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+
+        <div class="about-text">
+          <p>
+            Hi! I'm <strong>Aroosa</strong>, a developer passionate about building clean, functional, and delightful web experiences. I love finding the intersection of design and code.
+          </p>
+          <p>
+            Currently learning HTML, CSS, and beyond — one project at a time. Always curious, always building.
+          </p>
+          <div class="chips">
+            <span class="chip">HTML &amp; CSS</span>
+            <span class="chip">Web Design</span>
+          </div>
+        </div>
+
+        <div class="interests-cards">
+          <div class="interests-card">
+          
+            <div>
+              <h4>Web Development</h4>
+              <p>"With great power comes great responsibility" — my favourite design philosophy too.</p>
+            </div>
+          </div>
+          <div class="interests-card">
+            <div>
+              <h4>AI &amp; ML</h4>
+              <p>Exploring the intersection of artificial intelligence and machine learning to create innovative solutions.</p>
+            </div>
+          </div>
+          <div class="interests-card">
+            <div>
+              <h4>Agents</h4>
+              <p>Building intelligent systems that can reason, learn, and act autonomously.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">What I've Built</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="card-body">
+            <p class="card-tag">Smart Agent</p>
+            <h3>AI Agent</h3>
+            <p>A intelligent agent powered by artificial intelligence to assist users with their queries and tasks.</p>
+          </div>
+          <div class="card-footer">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">OpenAI</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-body">
+            <p class="card-tag">UI Design</p>
+            <h3>Portfolio Page</h3>
+            <p>A personal portfolio showcasing projects, skills, and a contact form, the very page you're reading right now!</p>
+          </div>
+          <div class="card-footer">
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">CSS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="card-body">
+            <p class="card-tag">Coming Soon</p>
+            <h3>Something Awesome</h3>
+            <p>Next project in progress. Stay tuned! Follow on GitHub to see what's cooking.</p>
+          </div>
+          <div class="card-footer">
+            <span class="tech-badge">TBD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Say Hello</p>
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact-layout">
+
+        <div class="contact-info">
+          <h3>Let's work together.</h3>
+          <p>Have a project idea, a question, or just want to say hi? Drop me a message - I'd love to hear from you.</p>
+
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/aroosa-hoda/" target="_blank" class="contact-link-item">
+              linkedin.com/in/aroosa-hoda
+            </a>
+            <a href="https://github.com/aroosahoda" target="_blank" class="contact-link-item">
+              github.com/aroosahoda
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="e.g. Peter Parker" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="peterparker@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width: fit-content;">Send Message →</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">AH<span>.</span></div>
+      <p>© 2026 Aroosa Hoda - Built with HTML &amp; CSS</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/aroosa-hoda/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/aroosahoda" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
